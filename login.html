@@ -1,86 +1,132 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libraries/font-awesome/css/all.css">
+	<link rel="stylesheet" href="assets/css/font.css">
+	<link rel="stylesheet" href="assets/css/general.css">
 	<link rel="stylesheet" href="assets/css/login.css">
 	<title>Login</title>
 </head>
-<body class="h-100 d-flex flex-column">
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		  <div class="container-fluid">
-			 <a class="navbar-brand" href="#">CryptoWallet</a>
-			 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			 </button>
-			 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				  <li class="nav-item">
-					 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-				  </li>
-				  <li class="nav-item">
-					 <a class="nav-link" href="#">Link</a>
-				  </li>
-				</ul>
-			 </div>
-		  </div>
-		</nav>
-	 </header>
-	 
-	 <main>
-		<div class="container">
-		  <div class="row mt-2">
-			 <div class="col-sm-3">
-				<h4>CryptoWaller</h4>
-			 </div>
-			 <div class="col-sm-6">
-				<div class="row">
-				  <div class="col-sm-12">
-					 <form>
-						<img class="mb-4" src="https://i.imgur.com/uNizhaM.png" alt="" width="72">
-						<h1 class="h3 mb-3 fw-normal">Iniciar sesión</h1>
-	 
-						<div class="form-floating">
-						  <input type="email" class="form-control" id="floatingInput" placeholder="">
-						  <label for="floatingInput">Email</label>
-						</div>
-						<div class="form-floating">
-						  <input type="password" class="form-control" id="floatingPassword" placeholder="">
-						  <label for="floatingPassword">Contraseña</label>
-						</div>
-	 
-						<div class="checkbox mb-3 mt-3">
-						  <label>
-							 <input type="checkbox" value="remember-me"> Mantener sesión inciada
-						  </label>
-						</div>
-						<button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesión</button>
-					 </form>
-				  </div>
-				</div>
-			 </div>
-		  </div>
-		</div>
-	 </main>
-	 <footer class="footer mt-auto py-3 bg-dark text-white">
-		<div class="container-fluid">
-		  <div class="row">
-			 <div class="col-sm-4 col">
-				Widget 1
-			 </div>
-			 <div class="col-sm-4 col">
-				Widget 2
-			 </div>
-			 <div class="col-sm-4 col">
-				&copy; 2022
-			 </div>
-		  </div>
-		</div>
-	 </footer>
 
-	 <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+<body class="h-100 d-flex flex-column bg-gray-custom">
+	<header class="pt-2 bg-gray-custom">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">CryptoWallet</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavBar"
+					aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="mainNavBar">
+					<ul class="navbar-nav ml-auto mr-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#Comprar">Comprar cripto</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#Empezar">¿Como empesar?</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#Mercados">Mercados</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#Que">¿Qué somos?</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<a class="btn btn-outline-light btn-sm me-2" href="login.html">Ingresar</a>
+						<a class="btn btn-warning btn-sm" href="login.html">Crea tu cuenta</a>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container text-light mt-5 py-5">
+			<div class="row mt-2">
+				<div class="col-sm-3">
+					<h4 style="font-size: 75px;"><i class="fa-solid fa-image"></i></h4>
+				</div>
+				<div class="col-sm-6">
+					<div class="row">
+						<div class="col-sm-12">
+							<form>
+								<img class="mb-4" src="https://i.imgur.com/uNizhaM.png" alt="" width="72">
+								<h1 class="h3 mb-3 fw-normal">Iniciar sesión</h1>
+
+								<div class="form-floating">
+									<input type="email" class="form-control bg-dark" id="floatingInput" placeholder="">
+									<label for="floatingInput">Email</label>
+								</div>
+								<div class="form-floating">
+									<input type="password" class="form-control bg-dark" id="floatingPassword" placeholder="">
+									<label for="floatingPassword">Contraseña</label>
+								</div>
+
+								<div class="checkbox mb-3 mt-3">
+									<label>
+										<input type="checkbox" value="remember-me"> Mantener sesión inciada
+									</label>
+								</div>
+								<button class="w-100 btn btn-lg btn-warning" type="submit">Iniciar sesión</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer mt-auto py-3 text-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col">
+					<h5>Widget 1</h5>
+					<ul>
+						<li>item 1</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+					</ul>
+				</div>
+				<div class="col-sm-4 col">
+					<h5>Widget 2</h5>
+					<ul>
+						<li>item 1</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+					</ul>
+				</div>
+				<div class="col-sm-4 col">
+					<h5>Widget 2</h5>
+					<ul>
+						<li>item 1</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<hr _ngcontent-sfu-c125="" class="footer-line bg-primary-custom" style="position: relative; z-index: 1;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p>&copy; 2022</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/scroll.js"></script>
 </body>
+
 </html>

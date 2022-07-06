@@ -1,0 +1,100 @@
+/* GENERAL */
+html body {
+	font-family: CryptoG10, Arial, sans-serif !important;
+}
+body {
+	font-family: CryptoG10, Arial, sans-serif !important;
+}
+
+/* NAVBAR */
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+html:not([data-scroll='0']) header {
+	box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+}
+
+.ml-auto, .mx-auto {
+	margin-left: auto !important;
+ }
+ .mr-auto, .mx-auto {
+	margin-right: auto !important;
+ }
+
+/* HEADER */
+#header {
+	min-height: calc(100vh - 56px);
+}
+
+#header .header-intro {
+	font-size: 60px;
+}
+
+#header .header-img {
+	background-image: url('../images/header-img.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+
+#header .header-cards .card {
+	overflow: hidden;
+}
+
+#header .header-cards .card::before, #header .header-cards .card::after {
+	content: '';
+	position: absolute;
+	background: #191919;
+	width: 20px;
+	height: 20px;
+	top: calc(50% - 10px);
+}
+
+#header .header-cards .card::before {
+	left: -12px;
+	border-radius: 0 50% 50% 0;
+}
+
+#header .header-cards .card::after {
+	right: -12px;
+	border-radius: 50% 0 0 50% ;
+}
+
+/* MAIN */
+main {
+	margin-top: 64px;
+}
+
+main #Mercados {
+	background-image: url('../images/sep01.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* COLORS */
+.bg-gray-custom {
+	background-color: #191919 !important;
+}
+
+.bg-primary-custom {
+	color: #ffa000 ;
+}
+
+.text-primary-custom {
+	color: #ffa000 ;
+}
+
+/* FOOTER */
+footer ul {
+	list-style: none;
+}
+
+/* CUSTOMIZATION */
+.list-group-item {
+	background-color: initial;
+	border-color: rgba(255,255,255,.125);
+}
