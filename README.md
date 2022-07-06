@@ -33,7 +33,7 @@ Bootstrap, FontAwesome
 
 - [@Matias Dalmasso](https://github.com/mdalmasso)
 - [@Miqueas Sarmiento](https://github.com/elmouse19)
-- [@Carlos](https://github.com/80Charlys)
+- [@Carlos Figueroa](https://github.com/80Charlys)
 - [@Natalia Torres](https://github.com/TorresNatalia)
 - [@Leandra Huespe](https://github.com/leandrahuespe5)
 - [@Jonas Cugnini](https://github.com/jcugnini)
