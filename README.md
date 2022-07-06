@@ -9,9 +9,9 @@
 <h4 align="center">CryptoWallet es un proyecto en desarrollo con la finalidad de crear una aplicación web para la compra y venta de criptomonedas.</h4>
 
 <p align="center">
-  <a href="#key-features">Funcionalidades</a> •
-  <a href="#how-to-use">Tecnologias</a> •
-  <a href="#download">Equipo</a>
+  <a href="#Funciones">Funcionalidades</a> •
+  <a href="#Tecnologias">Tecnologias</a> •
+  <a href="#Equipo">Equipo</a>
 </p>
 
 ## Funciones
