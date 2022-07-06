@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/FSAgentesPublicos2022/grupo10-fsap2022-g10/master/docs/samples/index.png" alt="Markdownify" width="200">
+  <img src="https://raw.githubusercontent.com/FSAgentesPublicos2022/grupo10-fsap2022-g10/master/docs/samples/index.png" alt="Markdownify" width="100%">
   <br>
   CryptoWallet
   <br>
