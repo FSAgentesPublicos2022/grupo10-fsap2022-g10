@@ -1,5 +1,34 @@
-/* CUSTOMIZATION */
+/* PANEL SWITHCER */
+main .panelSwitch, main .panelSwitch:target ~ #login {
+	display: none;
+	scroll-margin-top: 100vh;
+}
+/* #panel-principal form:not(:first-child){
+	display: none;
+} */
+#login, main .panelSwitch:target{
+	display: block;
+	animation: slide-right 0.5s ease;
+}
 
-.form-control {
+/* CUSTOMIZATION */
+.form-control, .input-group-text {
 	border-color: #191919;
+	padding: 15px 12px;
+}
+.form-control, .form-control:focus {
+	color: white;
+}
+
+
+/* ANIMATIONS */
+@keyframes slide-right {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }

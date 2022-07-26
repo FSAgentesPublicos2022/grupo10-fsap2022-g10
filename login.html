@@ -17,7 +17,7 @@
 	<header class="pt-2 bg-gray-custom">
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">CryptoWallet</a>
+				<a class="navbar-brand" href="index.html">Neo Crypto</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavBar"
 					aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -38,8 +38,8 @@
 						</li>
 					</ul>
 					<form class="d-flex">
-						<a class="btn btn-outline-light btn-sm me-2" href="login.html">Ingresar</a>
-						<a class="btn btn-warning btn-sm" href="login.html">Crea tu cuenta</a>
+						<a class="btn btn-outline-light btn-sm me-2" href="login.html#login">Ingresar</a>
+						<a class="btn btn-warning btn-sm" href="login.html#signup">Crea tu cuenta</a>
 					</form>
 				</div>
 			</div>
@@ -55,8 +55,33 @@
 				<div class="col-sm-6">
 					<div class="row">
 						<div class="col-sm-12">
-							<form>
-								<img class="mb-4" src="https://i.imgur.com/uNizhaM.png" alt="" width="72">
+							<!-- SIGN UP -->
+							<form class="panelSwitch" id="signup">
+								<h1 class="h3 mb-3 fw-normal">Crear cuenta</h1>
+
+								<div class="input-group mb-3">
+									<span class="input-group-text bg-dark text-white">Nombre</span>
+									<input type="text" class="form-control bg-dark text-white" id="first-name" placeholder="Nombre">
+									<input type="text" class="form-control bg-dark text-white" id="last-name" placeholder="Apellido">
+								</div>
+
+								<div class="input-group mb-3">
+									<span class="input-group-text bg-dark text-white">Email</span>
+									<input type="email" class="form-control bg-dark" id="floatingInput" placeholder="johny">
+									<span class="input-group-text bg-dark text-white">@</span>
+									<input type="email" class="form-control bg-dark" id="floatingInput" placeholder="walker">
+									<input type="email" class="form-control bg-dark" id="floatingInput" placeholder=".com">
+								</div>
+								<div class="input-group">
+									<input type="password" class="form-control bg-dark" id="floatingPassword" placeholder="Contraseña">
+									<input type="password" class="form-control bg-dark" id="floatingPassword" placeholder="Repita la contraseña">
+								</div>
+
+								<button class="w-100 btn btn-lg btn-warning mt-3" type="submit">Registrarse</button>
+							</form>
+
+							<!-- SIGN IN -->
+							<form class="panelSwitch" id="login">
 								<h1 class="h3 mb-3 fw-normal">Iniciar sesión</h1>
 
 								<div class="form-floating">
@@ -81,6 +106,7 @@
 			</div>
 		</div>
 	</main>
+
 	<footer class="footer mt-auto py-3 text-white">
 		<div class="container">
 			<div class="row">
