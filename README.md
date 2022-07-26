@@ -2,7 +2,7 @@
   <br>
   <img src="https://raw.githubusercontent.com/FSAgentesPublicos2022/grupo10-fsap2022-g10/master/docs/samples/index.png" alt="Markdownify" width="100%">
   <br>
-  CryptoWallet
+  Neo Crypto
   <br>
 </h1>
 
